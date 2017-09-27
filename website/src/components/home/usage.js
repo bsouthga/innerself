@@ -48,10 +48,12 @@ export { attach, connect };
         </pre>
       </div>
     </div>
-    <div style="width:100%;text-align:center;margin-top:20px;">
-      <a class="large-button" href="#documentation">
-        go to full docs
-      </a>
+    <div class="row">
+      <div style="width:100%;text-align:center;margin-top:20px;">
+        <a class="large-button" href="#documentation">
+          go to full docs
+        </a>
+      </div>
     </div>
   </div>
 `;

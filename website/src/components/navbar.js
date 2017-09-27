@@ -1,8 +1,11 @@
 import html from 'innerself';
 
+const kebab = str => str.split(' ').map(s => s.toLowerCase()).join('-');
+
 const links = [
   'Background',
-  'Usage'
+  'Usage',
+  'How it works'
 ];
 
 export const Navbar = () => html`
@@ -13,7 +16,7 @@ export const Navbar = () => html`
     </div>
     <div class="navbar-links">
       ${links.map(link => `
-        <a href="#${link.toLowerCase()}">
+        <a href="#${kebab(link)}">
           ${link}
         </a>
       `)}

@@ -14,7 +14,8 @@
   },
   "scripts": {
     "test": "mocha --ui tdd --require ./test/__setup",
-    "deploy": "cd ./website && npm run build && gh-pages -d ./public"
+    "deploy": "cd ./website && npm run build && gh-pages -d ./public",
+    "start": "cd ./website && npm start"
   },
   "homepage": "https://github.com/stasm/innerself#readme",
   "devDependencies": {
