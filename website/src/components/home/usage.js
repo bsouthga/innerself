@@ -3,7 +3,7 @@ import html from 'innerself';
 const tag = (str, close = false) => `&lt;${close ? '/' : ''}${str}&gt;`;
 
 export const Usage = () => html`
-  <div class="usage">
+  <div id="usage">
     <div class="row">
       <div class="column">
         <h2>

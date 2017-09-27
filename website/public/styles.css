@@ -35,8 +35,6 @@ a:hover {
 
 .container {
   height: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
 /**
@@ -118,12 +116,12 @@ a.large-button:hover {
   color: white;
 }
 
-.background {
+#background {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.usage {
+#usage {
   margin: 0 auto;
   max-width: 900px;
   padding: 30px;

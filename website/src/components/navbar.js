@@ -1,11 +1,8 @@
 import html from 'innerself';
 
 const links = [
-  'Home',
-  'Examples',
-  'Documentation',
-  'Download',
-  'Github'
+  'Background',
+  'Usage'
 ];
 
 export const Navbar = () => html`
@@ -20,6 +17,9 @@ export const Navbar = () => html`
           ${link}
         </a>
       `)}
+      <a href="https://github.com/stasm/innerself">
+        Github
+      </a>
     </div>
   </div>
 `;
