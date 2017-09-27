@@ -1,14 +1,15 @@
 import html from 'innerself';
 
 import { Navbar } from './navbar';
-import { Content } from './content';
 import { Footer } from './footer';
+
+import { Home } from './home';
 
 export const App = () => html`
   <div class="container">
     ${[
       Navbar(),
-      Content(),
+      Home(),
       Footer()
     ]}
   </div>

@@ -3,11 +3,26 @@
  */
 body {
   margin: 0px;
+  font-family: sans-serif;
+  font-size: 14px;
 }
 
 a {
   color: black;
   text-decoration: none;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+pre {
+  padding: 10px;
+  overflow: auto;
+}
+
+pre, code {
+  background-color: #f2f3f8;
 }
 
 a:hover {
@@ -16,14 +31,42 @@ a:hover {
 
 #root {
   height: 100%;
-  font-family: sans-serif;
-  font-size: 12px;
 }
 
 .container {
   height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+/**
+ * utility classes
+ */
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  width: 50%;
+}
+
+a.large-button {
+  background-color: #f2f3f8;
+  padding: 10px 20px;
+  border: 2px solid black;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: ease .1s;
+  -webkit-transition: ease .1s;
+}
+
+
+a.large-button:hover {
+  -webkit-box-shadow: 4px 4px 9px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 4px 9px -3px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 9px -3px rgba(0,0,0,0.75);
 }
 
 
@@ -67,6 +110,23 @@ a:hover {
  */
 .content {
   flex-grow: 1;
+}
+
+.background-container {
+  padding: 40px;
+  background-color: black;
+  color: white;
+}
+
+.background {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.usage {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 30px;
 }
 
 /**
